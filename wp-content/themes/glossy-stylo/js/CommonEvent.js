@@ -10,7 +10,7 @@ window.onscroll = function () {
 	
 	if (scrolltop > sidebar_top){
 		sidebar.style.position = "fixed";
-		sidebar.style.left = sidebar_left+1+"px";
+		sidebar.style.left = sidebar_left - sidebar.style.marginLeft + "px";
 		sidebar.style.top = "0";
 	}
 	else{
