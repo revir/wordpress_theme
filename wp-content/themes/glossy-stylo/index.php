@@ -38,4 +38,5 @@ get_header(); ?>
 	</div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="wp-content/themes/glossy-stylo/js/CommonEvent.js"></script>
