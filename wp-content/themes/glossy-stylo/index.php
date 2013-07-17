@@ -38,4 +38,4 @@ get_header(); ?>
 	</div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
-<script src="js/CommonEvent.js"></script>
+<script src="wp-content/themes/glossy-stylo/js/CommonEvent.js"></script>
