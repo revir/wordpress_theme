@@ -64,7 +64,7 @@ a img {
 
 
 body {
-	font-size: 62.5%; 
+	font-size: 80%; 
 	font-family: Arial, Sans-Serif; 
 	background-color:#000;
 	color: #333;
@@ -429,7 +429,7 @@ a:hover {
 
 .postmetadata {
 	clear: both;    
-	line-height: 16px;
+	line-height: 25px;
 }
 
 .clear {
