@@ -14,7 +14,7 @@ function getElementTop(element){
 
 var sidebar_top = getElementTop(document.getElementById("sidebar"));
 var sidebar_left = document.getElementById("sidebar").getBoundingClientRect().left;
-var sidebar_margin_left = parseInt(getDefaultStyle(document.getElementById("sidebar"), "margin-left"));
+var sidebar_margin_left = parseInt(getDefaultStyle(document.getElementById("sidebar"), "marginLeft"));
 
 window.onscroll = function () {
 	var header = document.getElementById("header");
