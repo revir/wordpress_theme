@@ -84,4 +84,4 @@
 		</div>
 		<div id="sidebarfooter"></div>
 </div>
-<script src="wp-content/themes/glossy-stylo/js/CommonEvent.js"></script>
+<script src="/wp-content/themes/glossy-stylo/js/CommonEvent.js"></script>
