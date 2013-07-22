@@ -21,31 +21,7 @@ get_header();
 				<?php wp_link_pages(array('before' => '<div class="pages"><strong>Pages:</strong> ', 'after' => '</div>', 'next_or_number' => 'number')); ?>
 				<?php the_tags( '<p>标签: ', ', ', '</p>'); ?>
 
-				<p class="postmetadata authorandinfo">
-					<strong>版权信息: </strong> 自由转载-非商用-非衍生-保持署名 |  <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">Creative Commons BY-NC-ND 3.0</a>
-					<strong>原文网址: </strong> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-					
-					<strong>最后修改时间: </strong> <?php the_modified_time('H:i Y-m-j') ?> 
-				</p>
-						
-				<p class="postmeltadata traceandcomment">
 
-						<?php if ( comments_open() && pings_open() ) {
-							// Both Comments and Pings are open ?>
-							You can <a href="#respond">leave a response</a>, or <a href="<?php trackback_url(); ?>" rel="trackback">trackback</a> from your own site.
-
-						<?php } elseif ( !comments_open() && pings_open() ) {
-							// Only Pings are Open ?>
-							Responses are currently closed, but you can <a href="<?php trackback_url(); ?> " rel="trackback">trackback</a> from your own site.
-
-						<?php } elseif ( comments_open() && !pings_open() ) {
-							// Comments are open, Pings are not ?>
-							You can skip to the end and leave a response. Pinging is currently not allowed.
-
-						<?php } elseif ( !comments_open() && !pings_open() ) {
-							// Neither Comments, nor Pings are open ?>
-							Both comments and pings are currently closed.					 
-				</p>	
 			</div>
 			
 			</div>
