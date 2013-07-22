@@ -24,6 +24,25 @@ get_header();
 
 			</div>
 			
+			<p class="postmeltadata traceandcomment">
+
+						<?php if ( comments_open() && pings_open() ) {
+							// Both Comments and Pings are open ?>
+							You can <a href="#respond">leave a response</a>, or <a href="<?php trackback_url(); ?>" rel="trackback">trackback</a> from your own site.
+
+						<?php } elseif ( !comments_open() && pings_open() ) {
+							// Only Pings are Open ?>
+							Responses are currently closed, but you can <a href="<?php trackback_url(); ?> " rel="trackback">trackback</a> from your own site.
+
+						<?php } elseif ( comments_open() && !pings_open() ) {
+							// Comments are open, Pings are not ?>
+							You can skip to the end and leave a response. Pinging is currently not allowed.
+
+						<?php } elseif ( !comments_open() && !pings_open() ) {
+							// Neither Comments, nor Pings are open ?>
+							Both comments and pings are currently closed.					 
+			</p>
+				
 			</div>
 					<div id="postfooter"></div>
 					
