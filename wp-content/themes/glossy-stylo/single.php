@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 get_header();
 ?>
 
@@ -14,18 +14,18 @@ get_header();
 
 		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<h2><?php the_title(); ?></h2>
-			<p class='post_timestamp'>±¾ÎÄ×îºó·¢±íÊ±¼ä: <?php the_modified_time('H:i Y-m-j') ?> </p>
+			<p class='post_timestamp'>æœ¬æ–‡æœ€åå‘è¡¨æ—¶é—´: <?php the_modified_time('H:i Y-m-j') ?> </p>
 			<div class="entry">
 				<?php the_content('<p class="serif">Read the rest of this entry &raquo;</p>'); ?>
 
 				<?php wp_link_pages(array('before' => '<div class="pages"><strong>Pages:</strong> ', 'after' => '</div>', 'next_or_number' => 'number')); ?>
-				<?php the_tags( '<p>±êÇ©: ', ', ', '</p>'); ?>
+				<?php the_tags( '<p>æ ‡ç­¾: ', ', ', '</p>'); ?>
 
 				<p class="postmetadata authorandinfo">
-					<strong>°æÈ¨ĞÅÏ¢: </strong> ×ÔÓÉ×ªÔØ-·ÇÉÌÓÃ-·ÇÑÜÉú-±£³ÖÊğÃû |  <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">Creative Commons BY-NC-ND 3.0</a>
-					<strong>Ô­ÎÄÍøÖ·: </strong> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+					<strong>ç‰ˆæƒä¿¡æ¯: </strong> è‡ªç”±è½¬è½½-éå•†ç”¨-éè¡ç”Ÿ-ä¿æŒç½²å |  <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">Creative Commons BY-NC-ND 3.0</a>
+					<strong>åŸæ–‡ç½‘å€: </strong> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 					
-					<strong>×îºóĞŞ¸ÄÊ±¼ä: </strong> <?php the_modified_time('H:i Y-m-j') ?> 
+					<strong>æœ€åä¿®æ”¹æ—¶é—´: </strong> <?php the_modified_time('H:i Y-m-j') ?> 
 				</p>
 						
 				<p class="postmeltadata traceandcomment">
