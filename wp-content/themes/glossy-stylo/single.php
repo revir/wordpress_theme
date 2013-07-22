@@ -26,8 +26,9 @@ get_header();
 			
 			<div class="postmetadata authorandinfo">
 					<strong>版权信息: </strong> 自由转载-非商用-非衍生-保持署名 |  <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">Creative Commons BY-NC-ND 3.0</a>
+					<br>
 					<strong>原文网址: </strong> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-					
+					<br>
 					<strong>最后修改时间: </strong> <?php the_modified_time('H:i Y-m-j') ?> 
 			</div>
 				
