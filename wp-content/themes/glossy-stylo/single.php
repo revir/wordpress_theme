@@ -24,7 +24,7 @@ get_header();
 
 			</div>
 			
-			<p class="postmeltadata traceandcomment">
+			<div class="postmeltadata traceandcomment">
 
 						<?php if ( comments_open() && pings_open() ) {
 							// Both Comments and Pings are open ?>
@@ -41,7 +41,7 @@ get_header();
 						<?php } elseif ( !comments_open() && !pings_open() ) {
 							// Neither Comments, nor Pings are open ?>
 							Both comments and pings are currently closed.					 
-			</p>
+			</div>
 				
 			</div>
 					<div id="postfooter"></div>
