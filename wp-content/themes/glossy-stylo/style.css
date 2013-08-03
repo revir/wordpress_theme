@@ -64,8 +64,8 @@ a img {
 
 
 body {
-	font-size: 80%; 
-	font-family: Arial, Sans-Serif; 
+	font-size: 90%; 
+	font-family: "Helvetica Neue", Helvetica, "Segoe UI", Ubuntu, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;          /*Arial, Sans-Serif; */
 	background-color:#000;
 	color: #333;
 	background-attachment:fixed;
