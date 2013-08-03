@@ -62,8 +62,8 @@ a img {
 	border: none;
 }
 body {
-	font-size: 62.5%; 
-	font-family: Arial, Sans-Serif; 
+	/*font-size: 90%; */
+	font-family: "Helvetica Neue", Helvetica, "Segoe UI", Ubuntu, "Hiragino Sans GB", "Microsoft YaHei", Arial, Sans-Serif; 
 	background-color:#000;
 	color: #333;
 	background-attachment:fixed;
@@ -85,7 +85,7 @@ body {
 	}
 
 .narrowcolumn .entry, .widecolumn .entry {
-	line-height: 1.4em;
+	line-height: 2em;
 	}
 
 .widecolumn {
@@ -275,7 +275,9 @@ small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockqu
 
  
 code {
-	font: 1.1em 'Courier New', Courier, Fixed;
+    line-height: 1.4em;
+	font-size: 1em !important;
+	font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
 	}
 
 acronym, abbr, span.caps {
@@ -417,7 +419,7 @@ a:hover {
 
 .postmetadata {
 	clear: both;    
-	line-height: 16px;
+	line-height: 1.4em;
 }
 
 .clear {
@@ -652,7 +654,7 @@ margin-bottom:24px;
 
 pre {
     background-color: #ffffff;
-    font-size: 11px;
+    font-size: 15px;
     overflow: auto;
     padding: 10px;
 }
