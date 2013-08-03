@@ -1,10 +1,10 @@
 /*
 Theme Name: Glossy Stylo
-Theme URI: http://www.kfz-versicherung.in/glossy-stylo-theme/
+Theme URI: http://www.mrthemes.net/glossy-stylo-theme/
 Description: The Glossy Stylo Theme for WordPress +3.5 is a colorful theme with nice transparency effects. Add your own background-image and custom menu through the WordPress admin. 2-column layout and widget-ready sidebar.
-Version: 1.1.16
+Version: 1.1.17
 Author: aliwkbg
-Author URI: http://www.kfz-versicherung.in/
+Author URI: http://www.mrthemes.net/
 License: GNU General Public License
 License URI: license.txt
 Tags: custom-background, sticky-post, theme-options, dark, custom-menu
@@ -61,11 +61,9 @@ table {
 a img {
 	border: none;
 }
-
-
 body {
-	font-size: 90%; 
-	font-family: "Helvetica Neue", Helvetica, "Segoe UI", Ubuntu, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;          /*Arial, Sans-Serif; */
+	font-size: 62.5%; 
+	font-family: Arial, Sans-Serif; 
 	background-color:#000;
 	color: #333;
 	background-attachment:fixed;
@@ -74,11 +72,9 @@ body {
 	padding: 0;
 	}
 
-
-	.entry {
+.entry {
 	clear:both;
-	}
-	
+}
 	
 #content {
 	font-size: 1.2em;
@@ -132,7 +128,6 @@ h3#comments    {
 #footer a:link, #footer a:visited {
 	color:#000;
 }
- 
 
 small {
 	font-family: Arial, Helvetica, Sans-Serif;
@@ -168,15 +163,12 @@ h2.pagetitle {
 	font-size: 1.6em;
 	}
 
-
-
 h3, h3 a, h3 a:visited {
 	color:#000;
 	}
 
 h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
 	text-decoration: none;
-	
 	}
 
 #sidebar h2 {
@@ -193,7 +185,6 @@ h3 {
 	}
 
 .sticky {
-
 	padding: 0 10px 10px;
 	}
 .sticky h2 {
@@ -230,7 +221,7 @@ h3 {
 	text-transform: none;
 	}
 
-	ul {
+ul {
     list-style: square outside none;
     margin: 0 0 18px 1.5em;
 }
@@ -287,8 +278,7 @@ code {
 	font: 1.1em 'Courier New', Courier, Fixed;
 	}
 
-acronym, abbr, span.caps
-{
+acronym, abbr, span.caps {
 	font-size: 0.9em;
 	letter-spacing: .07em;
 	}
@@ -319,7 +309,6 @@ a:hover {
 	font-style: normal;
 	text-transform: capitalize;
 	}
-
 
 #page {
 	margin: 0px auto;
@@ -359,8 +348,7 @@ a:hover {
 	text-align:left;
 	width:695px;
 	overflow:auto;
-	}
-	
+	}	
 	
 #searchpost {
 	background-image:url(images/post.png);
@@ -429,13 +417,12 @@ a:hover {
 
 .postmetadata {
 	clear: both;    
-	line-height: 25px;
+	line-height: 16px;
 }
 
 .clear {
 	clear: both;
 }
-
 
 h1 {
 	font-size: 45px;
