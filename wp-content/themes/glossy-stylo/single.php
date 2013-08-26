@@ -14,48 +14,24 @@ get_header();
 
 		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<h2><?php the_title(); ?></h2>
-
+			<p class='post_timestamp'>本文最后发表时间: <?php the_modified_time('H:i Y-m-j') ?> </p>
 			<div class="entry">
 				<?php the_content('<p class="serif">Read the rest of this entry &raquo;</p>'); ?>
 
 				<?php wp_link_pages(array('before' => '<div class="pages"><strong>Pages:</strong> ', 'after' => '</div>', 'next_or_number' => 'number')); ?>
-				<?php the_tags( '<p>Tags: ', ', ', '</p>'); ?>
+				<?php the_tags( '<p>标签: ', ', ', '</p>'); ?>
 
-				<p class="postmetadata alt">
-					 
-						This entry was posted
-						<?php /* This is commented, because it requires a little adjusting sometimes.
-							You'll need to download this plugin, and follow the instructions:
-							http://binarybonsai.com/wordpress/time-since/ */
-							/* $entry_datetime = abs(strtotime($post->post_date) - (60*120)); echo time_since($entry_datetime); echo ' ago'; */ ?>
-						on <?php the_time('l, F jS, Y') ?> at <?php the_time() ?>
-						and is filed under <?php the_category(', ') ?>.
-						You can follow any responses to this entry through the <?php post_comments_feed_link('RSS 2.0'); ?> feed.
 
-						<?php if ( comments_open() && pings_open() ) {
-							// Both Comments and Pings are open ?>
-							You can <a href="#respond">leave a response</a>, or <a href="<?php trackback_url(); ?>" rel="trackback">trackback</a> from your own site.
-
-						<?php } elseif ( !comments_open() && pings_open() ) {
-							// Only Pings are Open ?>
-							Responses are currently closed, but you can <a href="<?php trackback_url(); ?> " rel="trackback">trackback</a> from your own site.
-
-						<?php } elseif ( comments_open() && !pings_open() ) {
-							// Comments are open, Pings are not ?>
-							You can skip to the end and leave a response. Pinging is currently not allowed.
-
-						<?php } elseif ( !comments_open() && !pings_open() ) {
-							// Neither Comments, nor Pings are open ?>
-							Both comments and pings are currently closed.
-
-					
-
-					 
-				</p>
-			<?php } edit_post_link('Edit this entry','','.'); ?>
-	
 			</div>
 			
+			<div class="postmetadata authorandinfo">
+					<strong>版权信息: </strong> 自由转载-非商用-非衍生-保持署名 |  <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">Creative Commons BY-NC-ND 3.0</a>
+					<br>
+					<strong>原文网址: </strong> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+					<br>
+					<strong>最后修改时间: </strong> <?php the_modified_time('H:i Y-m-j') ?> 
+			</div>
+				
 			</div>
 					<div id="postfooter"></div>
 					
