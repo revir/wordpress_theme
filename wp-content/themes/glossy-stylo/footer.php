@@ -12,7 +12,7 @@
 		 * however you like to.
 		*/
 		?>
-		 <?php _e( 'Design by ', 'glossy-stylo' ); ?> <a href="<?php echo esc_url( __( 'http://www.kfz-versicherung.in/', 'glossy-stylo' ) ); ?>"><?php printf( 'kfz-versicherung.in' ); ?></a> Themes.
+		 <?php _e( 'Design by ', 'glossy-stylo' ); ?> <a href="<?php echo esc_url( __( 'http://www.mrthemes.net/', 'glossy-stylo' ) ); ?>"><?php printf( 'Mr. Themes' ); ?></a>
  
 </div>
 </div>

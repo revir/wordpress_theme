@@ -1,4 +1,4 @@
-function getDefaultStyle(obj,attribute){ 
+function getStyle(obj,attribute){ 
     return obj.currentStyle?obj.currentStyle[attribute]:document.defaultView.getComputedStyle(obj,false)[attribute];   
 }
 
@@ -14,7 +14,7 @@ function getElementTop(element){
 
 var sidebar_top = getElementTop(document.getElementById("sidebar"));
 var sidebar_left = document.getElementById("sidebar").getBoundingClientRect().left;
-var sidebar_margin_left = parseInt(getDefaultStyle(document.getElementById("sidebar"), "marginLeft"));
+var sidebar_margin_left = parseInt(getStyle(document.getElementById("sidebar"), "marginLeft"));
 
 window.onscroll = function () {
 	var header = document.getElementById("header");
