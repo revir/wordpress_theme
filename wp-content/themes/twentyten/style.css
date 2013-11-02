@@ -58,6 +58,13 @@ a img {
 	border: none;
 }
 
+/* set the biggest image */
+p img {
+	max-width:600px;
+	width: expression(this.width > 600 ? “600px” : true);
+	height:auto;
+}
+
 /* =Layout
 -------------------------------------------------------------- */
 
