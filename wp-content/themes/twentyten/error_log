@@ -1,0 +1,1 @@
+[29-May-2013 00:09:39] PHP Fatal error:  Call to undefined function  get_header() in /home4/aguideto/public_html/wp-content/themes/twentyten/404.php on line 10
