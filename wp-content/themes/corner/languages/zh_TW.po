@@ -1,0 +1,567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Corner Default\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-14 18:29+0800\n"
+"PO-Revision-Date: 2011-05-14 18:30+0800\n"
+"Last-Translator: Tommy Chen <tommy351@gmail.com>\n"
+"Language-Team: SkyArrow <tommy351@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _c;_e;__;__ngettext:1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: /Users/SkyArrow/Sites/wp/wp-content/themes/corner\n"
+"Plural-Forms: nplurals=2; plural=n==1?0:1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:4
+msgid "404 Not Found"
+msgstr "404 找不到"
+
+#: 404.php:6
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "抱歉，找不到您所要求的頁面，或許您可回到首頁，或透過搜尋功能尋求幫助。"
+
+#: 404.php:8
+#: search-failed.php:7
+msgid "Tag Cloud:"
+msgstr "標籤雲："
+
+#: archive.php:10
+#: loop-index.php:4
+#: single.php:16
+msgid "M jS, Y"
+msgstr "Y 年 m 月 d 日"
+
+#: archive.php:13
+msgid "M, Y"
+msgstr "Y 年 m 月"
+
+#: archive.php:16
+msgid "Y"
+msgstr "Y 年"
+
+#: archive.php:19
+msgid "Author Archives"
+msgstr "作者彙整"
+
+#: archive.php:21
+msgid "Search Results: "
+msgstr "搜尋結果："
+
+#: archive.php:23
+msgid "Blog Archives"
+msgstr "網誌彙整"
+
+#: comments.php:3
+#: function-admin.php:133
+msgid "Comments"
+msgstr "留言"
+
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "此文章被密碼保護，請輸入密碼以檢視留言。"
+
+#: comments.php:15
+msgid "&lt; Prev"
+msgstr "&lt; 上一頁"
+
+#: comments.php:15
+msgid "Next &gt;"
+msgstr "下一頁 &gt;"
+
+#: comments.php:26
+msgid "Comments are closed."
+msgstr "留言功能已關閉。"
+
+#: comments.php:35
+msgid "Trackbacks"
+msgstr "引用"
+
+#: footer.php:4
+msgid "Copyright"
+msgstr "版權所有"
+
+#: function-admin.php:118
+#: function-admin.php:130
+msgid "Theme Options"
+msgstr "主題選項"
+
+#: function-admin.php:131
+msgid "Header"
+msgstr "頁首"
+
+#: function-admin.php:132
+msgid "Reading"
+msgstr "閱讀"
+
+#: function-admin.php:134
+msgid "Footer"
+msgstr "頁尾"
+
+#: function-admin.php:135
+msgid "Manual"
+msgstr "使用說明"
+
+#: function-admin.php:143
+msgid "Theme options have been saved."
+msgstr "主題選項已儲存。"
+
+#: function-admin.php:148
+msgid "Tagline"
+msgstr "副標題"
+
+#: function-admin.php:150
+msgid "Display the blog tagline."
+msgstr "顯示網誌副標題。"
+
+#: function-admin.php:151
+#: function-admin.php:166
+#: function-admin.php:177
+#: function-admin.php:192
+#: function-admin.php:205
+#: function-admin.php:212
+#: function-admin.php:221
+#: function-admin.php:228
+#: function-admin.php:237
+msgid "Enable"
+msgstr "啟用"
+
+#: function-admin.php:155
+msgid "Font Size"
+msgstr "字型大小"
+
+#: function-admin.php:157
+msgid "Adjust the font size of the blog title. (Default is 40 pixels)"
+msgstr "調整網誌標題的字型大小。(預設值為 40 像素)"
+
+#: function-admin.php:158
+msgid "Size:"
+msgstr "大小："
+
+#: function-admin.php:158
+msgid "px (pixels)"
+msgstr "px (像素)"
+
+#: function-admin.php:162
+msgid "Banner"
+msgstr "頁首圖片"
+
+#: function-admin.php:164
+msgid "Display the banner. The size of banner is 700x200 pixels. (You can customize your own banner in \"Appearance\" &rarr; \"Header\".)"
+msgstr "顯示頁首圖片，圖片大小為 700x200 像素。(您可於 \"外觀\" &rarr; \"頁首\" 中自定您的頁首)"
+
+#: function-admin.php:165
+msgid "If you enabled \"Random Banner\", you have to put your banner in \"/headers\" folder. When pages refreshed, photos will be randomly displayed."
+msgstr "若您啟用 \"隨機頁首圖片\"，您必須將圖片放置於 \"/headers\" 資料夾，每當頁面重新整理，會隨機顯示照片。"
+
+#: function-admin.php:168
+msgid "Enable Random Banner"
+msgstr "啟用隨機頁首圖片"
+
+#: function-admin.php:173
+msgid "Subscription Menu"
+msgstr "訂閱選單"
+
+#: function-admin.php:175
+msgid "Show the subscription menu on the rightmost side of the menu. (You can customize your own menu in \"Appearance\" &rarr; \"Menus\".)"
+msgstr "在選單最右側顯示訂閱選單。(您可於 \"外觀\" &rarr; \"選單\" 中自定您的選單內容)"
+
+#: function-admin.php:176
+#: function-admin.php:258
+msgid "&lowast; Menu items won't be displayed if Javascript is disabled."
+msgstr "&lowast; 若停用 Javascript 將無法顯示選單項目。"
+
+#: function-admin.php:183
+msgid "Layout"
+msgstr "布局"
+
+#: function-admin.php:185
+msgid "Select the layout of home page and archives page."
+msgstr "選擇首頁與彙整頁面的布局。"
+
+#: function-admin.php:187
+msgid "Full"
+msgstr "完整"
+
+#: function-admin.php:188
+msgid "Excerpt & Thumbnails"
+msgstr "概要與縮圖"
+
+#: function-admin.php:189
+msgid "Only Title"
+msgstr "僅標題"
+
+#: function-admin.php:191
+msgid "Display the date of posts in home page and archive pages."
+msgstr "在首頁和彙整頁面中顯示文章日期。"
+
+#: function-admin.php:196
+msgid "Page Navi"
+msgstr "頁面導覽"
+
+#: function-admin.php:198
+msgid "Select the way of navigation."
+msgstr "選擇導覽方式。"
+
+#: function-admin.php:198
+msgid "If you select \"Plugin\", you should install the plugin \"WP-PageNavi\" first."
+msgstr "若選擇 \"外掛\"，您必須先安裝 \"WP-PageNavi\"。"
+
+#: function-admin.php:200
+msgid "Built in theme"
+msgstr "主題內建"
+
+#: function-admin.php:201
+msgid "Plugin (WP-PageNavi)"
+msgstr "外掛 (WP-PageNavi)"
+
+#: function-admin.php:202
+msgid "WordPress Default"
+msgstr "WordPress 預設"
+
+#: function-admin.php:204
+msgid "You can also enable AJAX, users can turn to other pages without refreshing."
+msgstr "您還可啟用 AJAX 功能，使用者能無需重新整理就跳轉至其他頁面。"
+
+#: function-admin.php:209
+msgid "Sharing Button"
+msgstr "分享按鈕"
+
+#: function-admin.php:211
+msgid "Display a sharing button in your articles. (Powered by AddToAny)"
+msgstr "在文章中顯示分享按鈕。(使用 AddToAny)"
+
+#: function-admin.php:218
+msgid "Trackback"
+msgstr "引用"
+
+#: function-admin.php:220
+msgid "Show the trackback from other sites."
+msgstr "顯示來自其他網站的引用。"
+
+#: function-admin.php:225
+msgid "Reply"
+msgstr "回覆"
+
+#: function-admin.php:227
+msgid "Add \"@username\" before every reply."
+msgstr "在每則回覆前加上 \"@使用者名稱\""
+
+#: function-admin.php:234
+msgid "Footer Menu"
+msgstr "頁尾選單"
+
+#: function-admin.php:236
+msgid "Show the menu in footer."
+msgstr "顯示頁尾選單。"
+
+#: function-admin.php:241
+msgid "Footer Information"
+msgstr "頁尾資訊"
+
+#: function-admin.php:243
+msgid "Show the custom information in footer. Default is \"Copyright &copy; 2011 Your Site\". (HTML is avalible)"
+msgstr "在頁尾顯示自定資訊。預設為 \"版權所有 &copy; 2011 您的網站名稱\" (可使用 HTML 代碼)"
+
+#: function-admin.php:250
+msgid "Menu"
+msgstr "選單"
+
+#: function-admin.php:252
+msgid "How to display \"Home Page\" link as an icon?"
+msgstr "如何以圖示顯示「首頁」連結？"
+
+#: function-admin.php:253
+msgid "1. Go to \"Appearance\" &rarr; \"Menus\"."
+msgstr "1. 前往「外觀」&rarr;「選單」。"
+
+#: function-admin.php:254
+msgid "2. Click \"Screen Options\" in upper-right corner."
+msgstr "2. 點擊右上角的「顯示選項」。"
+
+#: function-admin.php:255
+msgid "3. Check \"Show advanced menu properties\" &rarr; \"CSS Classes\"."
+msgstr "3. 勾選「顯示進階選單設定」&rarr;「CSS 類別」。"
+
+#: function-admin.php:256
+msgid "4. Filled in the CSS Classes of home page with \"home\"."
+msgstr "4. 在首頁連結的 CSS 類別中填入 \"home\"。"
+
+#: function-admin.php:257
+msgid "&lowast; Too many menu items may cause layout breaks."
+msgstr "&lowast; 過多選單項目可能會破壞排版。"
+
+#: function-admin.php:263
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: functions.php:5
+msgid "Sidebar (Main)"
+msgstr "側邊欄 (主要)"
+
+#: functions.php:13
+msgid "Sidebar (Without border)"
+msgstr "側邊欄 (無框)"
+
+#: functions.php:21
+msgid "Sidebar (Post)"
+msgstr "側邊欄 (文章)"
+
+#: functions.php:29
+msgid "Sidebar (Post, Without border)"
+msgstr "側邊欄 (文章, 無框)"
+
+#: functions.php:40
+msgid "Menu (Main)"
+msgstr "選單 (主要)"
+
+#: functions.php:41
+msgid "Menu (Subscription)"
+msgstr "選項 (訂閱項目)"
+
+#: functions.php:42
+msgid "Menu (Footer)"
+msgstr "選單 (頁尾)"
+
+#: functions.php:93
+msgid "&laquo; Prev"
+msgstr "&laquo; 上一頁"
+
+#: functions.php:94
+msgid "Next &raquo;"
+msgstr "下一頁 &raquo;"
+
+#: functions.php:120
+msgid "Loading..."
+msgstr "載入中..."
+
+#: functions.php:121
+msgid "Error! Sorry, you have to manually refresh the page."
+msgstr "錯誤！抱歉，您必須親自重新整理頁面。"
+
+#: functions.php:158
+msgid "MOD"
+msgstr "待審核"
+
+#: functions.php:161
+msgid "ADMIN"
+msgstr "管理員"
+
+#: functions.php:176
+msgid " / M jS, Y G:i"
+msgstr " / Y 年 m 月 d 日 G:i"
+
+#: functions.php:178
+#: functions.php:196
+msgid "Edit"
+msgstr "編輯"
+
+#: functions.php:179
+msgid "Quote"
+msgstr "引用"
+
+#: functions.php:195
+msgid "M jS, Y G:i"
+msgstr "Y 年 m 月 d 日 G:i"
+
+#: header.php:22
+#: searchform.php:7
+msgid "Search"
+msgstr "搜尋"
+
+#: loop-index.php:11
+msgid "Read More &raquo;"
+msgstr "閱讀全文 &raquo;"
+
+#: loop-index.php:12
+#: page.php:13
+#: single.php:13
+msgid "Pages:"
+msgstr "頁次："
+
+#: loop-index.php:24
+msgid "&laquo; Newer"
+msgstr "&laquo; 較新"
+
+#: loop-index.php:25
+msgid "Older &raquo;"
+msgstr "較舊 &raquo;"
+
+#: search-failed.php:3
+msgid "No matching results"
+msgstr "沒有符合結果"
+
+#: search-failed.php:5
+msgid "You seem to have found a mis-linked page or search query with no matching results. Please trying your search again. If you feel that you should be staring at something a little more concrete, feel free to email the author of this site or browse the archives."
+msgstr "您可能網址輸入錯誤，或是所輸入的關鍵字沒有符合結果，請試著使用其他的關鍵字，或者返回首頁。"
+
+#: searchform.php:5
+msgid "Cancel"
+msgstr "取消"
+
+#: sidebar.php:14
+msgid "Archives"
+msgstr "彙整"
+
+#: sidebar.php:18
+msgid "Meta"
+msgstr "其他"
+
+#: single.php:17
+msgid "Categories:"
+msgstr "分類："
+
+#: single.php:18
+msgid "Tags:"
+msgstr "標籤："
+
+#: single.php:21
+msgid "Share to Facebook"
+msgstr "分享至 Facebook"
+
+#: single.php:22
+msgid "Share to Plurk"
+msgstr "分享至 Plurk"
+
+#: single.php:23
+msgid "Share to Twitter"
+msgstr "分享至 Twitter"
+
+#: single.php:25
+msgid "Share"
+msgstr "分享"
+
+#: admin/admin.php:76
+msgid "&radic; Saved"
+msgstr "&radic; 已儲存"
+
+#: admin/admin.php:83
+msgid "All current settings will be reset to defaults. Are you sure?"
+msgstr "目前的所有設定都將重設至預設值，您確定嗎？"
+
+#: admin/admin.php:83
+msgid "Reset to Deafults"
+msgstr "重設至預設值"
+
+#: admin/admin.php:101
+msgid "&lowast; Too many menu items may cause layout to break."
+msgstr "&lowast; 過多選單項目可能會破壞排版。"
+
+#: admin/admin.php:203
+msgid " px (pixels)"
+msgstr " px (像素)"
+
+#: admin/admin.php:267
+msgid "&lowast; If you select \"Plugin\", you should install the plugin \"WP-PageNavi\" first."
+msgstr "&lowast; 若選擇 \"外掛\"，您必須先安裝 \"WP-PageNavi\"。"
+
+#: admin/admin.php:282
+msgid "&lowast; Incompatible with Internet Explorer (IE) 8 or below."
+msgstr "&lowast; 不支援 Internet Explorer (IE) 8 或以下版本。"
+
+#~ msgid "RSS 2.0 - Entire RSS"
+#~ msgstr "RSS 2.0 - 全文 RSS"
+
+#~ msgid "RSS 2.0 - Comments RSS"
+#~ msgstr "RSS 2.0 - 留言 RSS"
+
+#~ msgid "Error:"
+#~ msgstr "錯誤："
+
+#~ msgid "Saved Complete!"
+#~ msgstr "儲存完成！"
+
+#~ msgid "WP-PageNavi"
+#~ msgstr "WP-PageNavi"
+
+#~ msgid "&lowast; Be sure that you have installed WP-PageNavi."
+#~ msgstr "&lowast; 請先確認您已安裝 WP-PageNavi"
+
+#~ msgid "1. Go to \"Setting\" &rarr; \"PageNavi\""
+#~ msgstr "1. 前往「設定」 &rarr; 「PageNavi」"
+
+#~ msgid "2. Enter the values below:"
+#~ msgstr "2. 輸入以下數值："
+
+#~ msgid "Text For Number Of Pages &rarr; Leave it blank"
+#~ msgstr "Text For Number Of Pages &rarr; 留空"
+
+#~ msgid "Text For Current Page &rarr; %PAGE_NUMBER%"
+#~ msgstr "Text For Current Page &rarr; %PAGE_NUMBER%"
+
+#~ msgid "Text For Page &rarr; %PAGE_NUMBER%"
+#~ msgstr "Text For Page &rarr; %PAGE_NUMBER%"
+
+#~ msgid "Text For Previous ...&rarr; Leave it blank"
+#~ msgstr "Text For Previous ...&rarr; 留空"
+
+#~ msgid "Text For Next ...&rarr; Leave it blank"
+#~ msgstr "Text For Next ...&rarr; 留空"
+
+#~ msgid "Use pagenavi-css.css &rarr; No"
+#~ msgstr "Use pagenavi-css.css &rarr; 否"
+
+#~ msgid ""
+#~ "&lowast; Others values choose as you like, but the value of \"Use "
+#~ "pagenavi-css.css\" must be No."
+#~ msgstr ""
+#~ "&lowast; 其他數值隨你喜歡，但 \"Use pagenavi-css.css\" 的值一定要為否。"
+
+#~ msgid "(Moderating)"
+#~ msgstr "(審核中)"
+
+#~ msgid "(Admin)"
+#~ msgstr "(管理員)"
+
+#~ msgid "(Release Notes)"
+#~ msgstr "(更新記錄)"
+
+#~ msgid "AJAX Comment"
+#~ msgstr "AJAX 留言"
+
+#~ msgid ""
+#~ "Let users submit/re-edit their comments without refreshing pages. "
+#~ "(Original by <a href=\\\"http://kan.willin.org/\\\">Willin Kan</a>.)"
+#~ msgstr ""
+#~ "讓使用者無需重新整理頁面，即可送出 / 重新編輯留言。(原作為 <a href=\\"
+#~ "\"http://kan.willin.org/\\\">Willin Kan</a>)"
+
+#~ msgid "Enable Re-edit Mode"
+#~ msgstr "啟用重新編輯功能"
+
+#~ msgid "Google Custom Search"
+#~ msgstr "Google 自定搜尋"
+
+#~ msgid "Use Google Custom Search instead of default."
+#~ msgstr "使用 Google 自定搜尋取代預設值。"
+
+#~ msgid "(Google Custom Search)"
+#~ msgstr "(Google 自定搜尋)"
+
+#~ msgid "ID:"
+#~ msgstr "ID:"
+
+#~ msgid "Show banner"
+#~ msgstr "顯示頁首圖片"
+
+#~ msgid "Show subscription menu"
+#~ msgstr "顯示訂閱選單"
+
+#~ msgid "Show Banner"
+#~ msgstr "顯示頁首圖片"
+
+#~ msgid "<h2 class=\"nodetail\">Author Archives</h2>"
+#~ msgstr "<h2 class=\"nodetail\">作者彙整</h2>"
+
+#~ msgid "<h2 class=\"nodetail\">Blog Archives</h2>"
+#~ msgstr "<h2 class=\"nodetail\">網誌彙整</h2>"
+
+#~ msgid "<h2>%s</h2>"
+#~ msgstr "<h2>%s</h2>"
+
+#~ msgid "RSS Feed"
+#~ msgstr "RSS 訂閱"

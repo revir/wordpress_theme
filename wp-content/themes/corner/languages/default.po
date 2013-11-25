@@ -1,0 +1,465 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Corner Default\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-14 18:28+0800\n"
+"PO-Revision-Date: 2011-05-14 18:29+0800\n"
+"Last-Translator: Tommy Chen <tommy351@gmail.com>\n"
+"Language-Team: SkyArrow <tommy351@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _c;_e;__;__ngettext:1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: /Users/SkyArrow/Sites/wp/wp-content/themes/corner\n"
+"Plural-Forms: nplurals=2; plural=n==1?0:1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:4
+msgid "404 Not Found"
+msgstr ""
+
+#: 404.php:6
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr ""
+
+#: 404.php:8
+#: search-failed.php:7
+msgid "Tag Cloud:"
+msgstr ""
+
+#: archive.php:10
+#: loop-index.php:4
+#: single.php:16
+msgid "M jS, Y"
+msgstr ""
+
+#: archive.php:13
+msgid "M, Y"
+msgstr ""
+
+#: archive.php:16
+msgid "Y"
+msgstr ""
+
+#: archive.php:19
+msgid "Author Archives"
+msgstr ""
+
+#: archive.php:21
+msgid "Search Results: "
+msgstr ""
+
+#: archive.php:23
+msgid "Blog Archives"
+msgstr ""
+
+#: comments.php:3
+#: function-admin.php:133
+msgid "Comments"
+msgstr ""
+
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:15
+msgid "&lt; Prev"
+msgstr ""
+
+#: comments.php:15
+msgid "Next &gt;"
+msgstr ""
+
+#: comments.php:26
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:35
+msgid "Trackbacks"
+msgstr ""
+
+#: footer.php:4
+msgid "Copyright"
+msgstr ""
+
+#: function-admin.php:118
+#: function-admin.php:130
+msgid "Theme Options"
+msgstr ""
+
+#: function-admin.php:131
+msgid "Header"
+msgstr ""
+
+#: function-admin.php:132
+msgid "Reading"
+msgstr ""
+
+#: function-admin.php:134
+msgid "Footer"
+msgstr ""
+
+#: function-admin.php:135
+msgid "Manual"
+msgstr ""
+
+#: function-admin.php:143
+msgid "Theme options have been saved."
+msgstr ""
+
+#: function-admin.php:148
+msgid "Tagline"
+msgstr ""
+
+#: function-admin.php:150
+msgid "Display the blog tagline."
+msgstr ""
+
+#: function-admin.php:151
+#: function-admin.php:166
+#: function-admin.php:177
+#: function-admin.php:192
+#: function-admin.php:205
+#: function-admin.php:212
+#: function-admin.php:221
+#: function-admin.php:228
+#: function-admin.php:237
+msgid "Enable"
+msgstr ""
+
+#: function-admin.php:155
+msgid "Font Size"
+msgstr ""
+
+#: function-admin.php:157
+msgid "Adjust the font size of the blog title. (Default is 40 pixels)"
+msgstr ""
+
+#: function-admin.php:158
+msgid "Size:"
+msgstr ""
+
+#: function-admin.php:158
+msgid "px (pixels)"
+msgstr ""
+
+#: function-admin.php:162
+msgid "Banner"
+msgstr ""
+
+#: function-admin.php:164
+msgid "Display the banner. The size of banner is 700x200 pixels. (You can customize your own banner in \"Appearance\" &rarr; \"Header\".)"
+msgstr ""
+
+#: function-admin.php:165
+msgid "If you enabled \"Random Banner\", you have to put your banner in \"/headers\" folder. When pages refreshed, photos will be randomly displayed."
+msgstr ""
+
+#: function-admin.php:168
+msgid "Enable Random Banner"
+msgstr ""
+
+#: function-admin.php:173
+msgid "Subscription Menu"
+msgstr ""
+
+#: function-admin.php:175
+msgid "Show the subscription menu on the rightmost side of the menu. (You can customize your own menu in \"Appearance\" &rarr; \"Menus\".)"
+msgstr ""
+
+#: function-admin.php:176
+#: function-admin.php:258
+msgid "&lowast; Menu items won't be displayed if Javascript is disabled."
+msgstr ""
+
+#: function-admin.php:183
+msgid "Layout"
+msgstr ""
+
+#: function-admin.php:185
+msgid "Select the layout of home page and archives page."
+msgstr ""
+
+#: function-admin.php:187
+msgid "Full"
+msgstr ""
+
+#: function-admin.php:188
+msgid "Excerpt & Thumbnails"
+msgstr ""
+
+#: function-admin.php:189
+msgid "Only Title"
+msgstr ""
+
+#: function-admin.php:191
+msgid "Display the date of posts in home page and archive pages."
+msgstr ""
+
+#: function-admin.php:196
+msgid "Page Navi"
+msgstr ""
+
+#: function-admin.php:198
+msgid "Select the way of navigation."
+msgstr ""
+
+#: function-admin.php:198
+msgid "If you select \"Plugin\", you should install the plugin \"WP-PageNavi\" first."
+msgstr ""
+
+#: function-admin.php:200
+msgid "Built in theme"
+msgstr ""
+
+#: function-admin.php:201
+msgid "Plugin (WP-PageNavi)"
+msgstr ""
+
+#: function-admin.php:202
+msgid "WordPress Default"
+msgstr ""
+
+#: function-admin.php:204
+msgid "You can also enable AJAX, users can turn to other pages without refreshing."
+msgstr ""
+
+#: function-admin.php:209
+msgid "Sharing Button"
+msgstr ""
+
+#: function-admin.php:211
+msgid "Display a sharing button in your articles. (Powered by AddToAny)"
+msgstr ""
+
+#: function-admin.php:218
+msgid "Trackback"
+msgstr ""
+
+#: function-admin.php:220
+msgid "Show the trackback from other sites."
+msgstr ""
+
+#: function-admin.php:225
+msgid "Reply"
+msgstr ""
+
+#: function-admin.php:227
+msgid "Add \"@username\" before every reply."
+msgstr ""
+
+#: function-admin.php:234
+msgid "Footer Menu"
+msgstr ""
+
+#: function-admin.php:236
+msgid "Show the menu in footer."
+msgstr ""
+
+#: function-admin.php:241
+msgid "Footer Information"
+msgstr ""
+
+#: function-admin.php:243
+msgid "Show the custom information in footer. Default is \"Copyright &copy; 2011 Your Site\". (HTML is avalible)"
+msgstr ""
+
+#: function-admin.php:250
+msgid "Menu"
+msgstr ""
+
+#: function-admin.php:252
+msgid "How to display \"Home Page\" link as an icon?"
+msgstr ""
+
+#: function-admin.php:253
+msgid "1. Go to \"Appearance\" &rarr; \"Menus\"."
+msgstr ""
+
+#: function-admin.php:254
+msgid "2. Click \"Screen Options\" in upper-right corner."
+msgstr ""
+
+#: function-admin.php:255
+msgid "3. Check \"Show advanced menu properties\" &rarr; \"CSS Classes\"."
+msgstr ""
+
+#: function-admin.php:256
+msgid "4. Filled in the CSS Classes of home page with \"home\"."
+msgstr ""
+
+#: function-admin.php:257
+msgid "&lowast; Too many menu items may cause layout breaks."
+msgstr ""
+
+#: function-admin.php:263
+msgid "Save Changes"
+msgstr ""
+
+#: functions.php:5
+msgid "Sidebar (Main)"
+msgstr ""
+
+#: functions.php:13
+msgid "Sidebar (Without border)"
+msgstr ""
+
+#: functions.php:21
+msgid "Sidebar (Post)"
+msgstr ""
+
+#: functions.php:29
+msgid "Sidebar (Post, Without border)"
+msgstr ""
+
+#: functions.php:40
+msgid "Menu (Main)"
+msgstr ""
+
+#: functions.php:41
+msgid "Menu (Subscription)"
+msgstr ""
+
+#: functions.php:42
+msgid "Menu (Footer)"
+msgstr ""
+
+#: functions.php:93
+msgid "&laquo; Prev"
+msgstr ""
+
+#: functions.php:94
+msgid "Next &raquo;"
+msgstr ""
+
+#: functions.php:120
+msgid "Loading..."
+msgstr ""
+
+#: functions.php:121
+msgid "Error! Sorry, you have to manually refresh the page."
+msgstr ""
+
+#: functions.php:158
+msgid "MOD"
+msgstr ""
+
+#: functions.php:161
+msgid "ADMIN"
+msgstr ""
+
+#: functions.php:176
+msgid " / M jS, Y G:i"
+msgstr ""
+
+#: functions.php:178
+#: functions.php:196
+msgid "Edit"
+msgstr ""
+
+#: functions.php:179
+msgid "Quote"
+msgstr ""
+
+#: functions.php:195
+msgid "M jS, Y G:i"
+msgstr ""
+
+#: header.php:22
+#: searchform.php:7
+msgid "Search"
+msgstr ""
+
+#: loop-index.php:11
+msgid "Read More &raquo;"
+msgstr ""
+
+#: loop-index.php:12
+#: page.php:13
+#: single.php:13
+msgid "Pages:"
+msgstr ""
+
+#: loop-index.php:24
+msgid "&laquo; Newer"
+msgstr ""
+
+#: loop-index.php:25
+msgid "Older &raquo;"
+msgstr ""
+
+#: search-failed.php:3
+msgid "No matching results"
+msgstr ""
+
+#: search-failed.php:5
+msgid "You seem to have found a mis-linked page or search query with no matching results. Please trying your search again. If you feel that you should be staring at something a little more concrete, feel free to email the author of this site or browse the archives."
+msgstr ""
+
+#: searchform.php:5
+msgid "Cancel"
+msgstr ""
+
+#: sidebar.php:14
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Meta"
+msgstr ""
+
+#: single.php:17
+msgid "Categories:"
+msgstr ""
+
+#: single.php:18
+msgid "Tags:"
+msgstr ""
+
+#: single.php:21
+msgid "Share to Facebook"
+msgstr ""
+
+#: single.php:22
+msgid "Share to Plurk"
+msgstr ""
+
+#: single.php:23
+msgid "Share to Twitter"
+msgstr ""
+
+#: single.php:25
+msgid "Share"
+msgstr ""
+
+#: admin/admin.php:76
+msgid "&radic; Saved"
+msgstr ""
+
+#: admin/admin.php:83
+msgid "All current settings will be reset to defaults. Are you sure?"
+msgstr ""
+
+#: admin/admin.php:83
+msgid "Reset to Deafults"
+msgstr ""
+
+#: admin/admin.php:101
+msgid "&lowast; Too many menu items may cause layout to break."
+msgstr ""
+
+#: admin/admin.php:203
+msgid " px (pixels)"
+msgstr ""
+
+#: admin/admin.php:267
+msgid "&lowast; If you select \"Plugin\", you should install the plugin \"WP-PageNavi\" first."
+msgstr ""
+
+#: admin/admin.php:282
+msgid "&lowast; Incompatible with Internet Explorer (IE) 8 or below."
+msgstr ""
+

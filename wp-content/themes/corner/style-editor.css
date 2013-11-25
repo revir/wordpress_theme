@@ -1,0 +1,46 @@
+body.mceContentBody{
+	font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	color: #333;
+}
+p{
+	margin-top: 10px;
+	line-height: 1.5;
+}
+a{
+	color: #258fb8;
+}
+blockquote{
+	padding: 0 10px 0 30px;
+	color: #666;
+	min-height: 20px;
+	background: url(images/sprite.png) no-repeat -60px -320px;
+}
+pre{
+	font-family: "Courier New", "Lucida Console", serif;
+	margin-top: 10px;
+}
+img.alignleft{
+    margin: 0 10px 10px 0;
+}
+img.alignright{
+	margin: 0 0 10px 10px;
+}
+.wp-caption{
+	position: relative;
+	background: none;
+	margin: 0;
+	padding: 0;
+	text-align: inherit;
+	width: auto !important;
+	border: 0 none;
+}
+.wp-caption-dd{
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	background: rgba(0,0,0,0.6);
+	display: block;
+	font-size: 12px;
+	padding: 5px 10px;
+}

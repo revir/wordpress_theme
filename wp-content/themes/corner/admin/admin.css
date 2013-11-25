@@ -1,0 +1,87 @@
+.clearfix{
+	clear: both;
+}
+.wrap .header{
+	margin: 30px 0 15px;
+}
+.wrap .header h2{
+	background: url(options.png) no-repeat 50% #258fb8;
+	width: 50px;
+	height: 50px;
+	display: block;
+	text-indent: -9999px;
+	padding: 0;
+	margin-top: -1px;
+	margin-left: -1px;
+	float: left;
+}
+#corner_switch{
+	background: #fff;
+	height: 30px;
+	border: 1px solid #DFDFDF;
+	-moz-border-radius: 0 10px 10px 0;
+	-webkit-border-radius: 0 10px 10px 0;
+	border-radius: 0 10px 10px 0;
+}
+#corner_switch a{
+	float: left;
+	line-height: 30px;
+	padding: 0 15px;
+	cursor: pointer;
+}
+#corner_switch a.current{
+	font-weight: bold;
+}
+.form-table{
+	margin-left: 60px;
+	width: 95%;
+	line-height: 2;
+}
+.form-table input[type="radio"]{
+	display: inline;
+	margin-right: 4px;
+}
+.form-table input[type='checkbox']{
+	margin-right: 3px;
+}
+input#title_font_size{
+	width: 50px;
+}
+.form-table td{
+	vertical-align: top;
+	padding: 0 0 10px;
+	line-height: 2;
+	font-size: 12px;
+}
+.form-table th{
+	padding: 0;
+	font-weight: bold;
+}
+.form-table th label{
+	font-weight: bold;
+	font-size: 13px;
+}
+input.button-primary{
+	margin: 20px 0 20px 60px;
+}
+.form-table td.object{
+	padding-bottom: 0;
+}
+.child{
+	margin-left: 15px;
+}
+.wrap div.updated,
+.wrap div.error{
+	float: right;
+	border: 0 none;
+	border-left: 1px solid #e6db55;
+	border-radius: 0 10px 10px 0;
+	margin: 0;
+	padding: 0 15px;
+}
+.wrap div.updated p,
+.wrap div.error p{
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
